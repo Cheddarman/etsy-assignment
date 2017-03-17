@@ -1,0 +1,197 @@
+html {box-sizing:border-box;}
+*, *:before, *:after {box-sizing:inherit;}
+
+body {
+	display: flex;
+  flex-wrap: wrap;
+  background-color: #FAF9F5;
+}
+
+header {
+	width: 100%;
+	padding:20px;
+  background-color: white;
+}
+
+.logo {
+  background-image: url("assets/etsyLogo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  padding-bottom: 20px;
+	height:60px;
+	width:100px;
+  display:inline-block;
+  float:left;
+}
+
+.searchbar {
+  margin-top: 15px;
+}
+
+.search {
+  outline: none;
+  width:330px;
+  background-color: transparent;
+  line-height: 31px;
+  display:inline-block;
+  float:left;
+  border:solid 1px #bbb;
+  border-right: none;
+  border-top-left-radius:5px;
+  border-bottom-left-radius: 5px;
+}
+
+.searchbutton {
+  border: none;
+  float:left;
+  line-height: 30px;
+  background-color: #3CB1CB;
+  color:white;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius:5px;
+  font-size: 14px;
+  width:70px;
+}
+
+.cartbuttons {
+	height: 60px;
+	width: 500px;
+  float:right;
+  clear:right;
+  display: inline-block;
+}
+
+.cartbuttons > a {
+  margin:20px 10px;
+  line-height: 30px;
+
+
+}
+
+.cartbuttons a:nth-child(4) {
+  
+}
+
+/*.cart {
+  padding-left:20px;
+  padding-right:20px;
+  background-image: url("assets/cart.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px;
+  padding-top: 10px;
+  display: inline-block;
+  border-left: solid 1px #ddd;
+  padding-top:20px;
+  color:#999;
+}
+*/
+a {
+  text-decoration: none;
+  color:#333;
+  
+}
+
+.mainnav {
+  border-top:solid 1px #bbb;
+  padding-top: 15px;
+  padding-bottom: 15px;
+	width: 100%;
+	height:50px;
+  background-color:white;
+}
+
+.mainnav a {
+  padding: 10px;
+}
+
+
+
+.sidebar {
+  margin:30px;
+  background-color: white;
+  border:solid 1px #ddd;
+  border-radius: 3px;
+	width:250px;
+
+  padding:10px;
+}
+
+.sidebar > div {
+  border-bottom:solid 1px #ddd;
+}
+
+main {
+	width: 75%;
+	height:700px;
+}
+
+ul {
+  list-style: none;
+  padding:0;
+  
+}
+
+li {
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.sidebar a:hover, label:hover {
+  text-decoration: underline;
+}
+
+.sidebar p {
+  margin: 0;
+}
+
+.color > a {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: white;
+  border: solid 1px #ddd;
+  border-radius: 3px;
+}
+
+.color > a:nth-child(2) {
+  background-color: red;
+}
+
+.color > a:nth-child(3) {
+  background-color: orange;
+}
+
+.color > a:nth-child(4) {
+  background-color: yellow;
+}
+
+.color > a:nth-child(5) {
+  background-color: green;
+}
+
+.color > a:nth-child(6) {
+  background-color: blue;
+}
+
+.color > a:nth-child(7) {
+  background-color: purple;
+}
+
+.color > a:nth-child(8) {
+  background-color: black;
+}
+
+.sidebar select {
+  width:200px;
+  background-color: transparent;
+  outline: none;
+  border:solid 1px #ddd;
+}
+
+.sidebar select:focus {
+  border-color: #000;
+}
