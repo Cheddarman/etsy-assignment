@@ -40,6 +40,7 @@ header {
   border-right: none;
   border-top-left-radius:5px;
   border-bottom-left-radius: 5px;
+  padding-left:10px;
 }
 
 .searchbutton {
@@ -86,8 +87,8 @@ header {
   border-left: solid 1px #ddd;
   padding-top:20px;
   color:#999;
-}
-*/
+}*/
+
 a {
   text-decoration: none;
   color:#333;
@@ -96,18 +97,49 @@ a {
 
 .mainnav {
   border-top:solid 1px #bbb;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  border-bottom:solid 1px #bbb;
+  
 	width: 100%;
-	height:50px;
+	
   background-color:white;
 }
 
-.mainnav a {
-  padding: 10px;
+.mainnav > ul > li {
+  padding:0px 10px 15px 10px;
+  display: inline-block;
+  position: relative;
+
 }
 
+.mainnav > ul > li:hover {
+  border-bottom:solid 3px #F56400;
+  padding-bottom: 12px;
+}
 
+.dropdown {
+  display:;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  margin-left: 15px;
+  height:400px;
+}
+
+.dropdown  {
+  border-right:solid 1px #bbb;
+}
+
+.dropdown > li {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  border-right: solid 1px #bbb;
+}
+
+.mainnav li:nth-child(1):hover {
+
+}
 
 .sidebar {
   margin:30px;
@@ -115,7 +147,6 @@ a {
   border:solid 1px #ddd;
   border-radius: 3px;
 	width:250px;
-
   padding:10px;
 }
 
@@ -125,7 +156,37 @@ a {
 
 main {
 	width: 75%;
-	height:700px;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.maintoparea {
+  background-color:green;
+  height: 30px;
+  width: 100%;
+}
+
+.categories {
+  height: 25px;
+  width:100px;
+  background-color:orange;
+  float: left;
+}
+
+.sort {
+  height: 25px;
+  width:100px;
+  background-color:yellow;
+  float:right;
+}
+
+main > div {
+  width: 255px;
+  height: 260px;
+  background-color: red;
+  margin:5px;
+
 }
 
 ul {
@@ -195,3 +256,4 @@ li {
 .sidebar select:focus {
   border-color: #000;
 }
+
