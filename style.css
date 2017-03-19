@@ -117,17 +117,19 @@ a {
 }
 
 .dropdown {
-  display:;
+  display:none;
   overflow: hidden;
   position: absolute;
   background-color: white;
-  width: 100%;
-  margin-left: 15px;
-  height:400px;
+  width: 97%;
+  margin-left: 20px;
+
+  
 }
 
-.dropdown  {
+.dropdown  ul{
   border-right:solid 1px #bbb;
+  height:400px;
 }
 
 .dropdown > li {
@@ -181,12 +183,17 @@ main {
   float:right;
 }
 
-main > div {
+.item {
   width: 255px;
   height: 260px;
-  background-color: red;
+  background-color: ;
   margin:5px;
 
+}
+
+main img {
+  width:262px;
+  height: 208px;
 }
 
 ul {
