@@ -154,7 +154,24 @@ a {
 
 .sidebar > div {
   border-bottom:solid 1px #ddd;
+  padding-bottom: 10px;
 }
+
+.sidebar p {
+  padding:10px;
+}
+
+.input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.lowhigh {
+  width:20px;
+  height:20px;
+}
+
+
 
 main {
 	width: 75%;
